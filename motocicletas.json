@@ -1,87 +1,78 @@
 {
 
-"games":
+"Motorcycles":
     [
         {
             "id" : "01",
-	    "name" : "New Super Mario Bros Wii",
-	    "description": "La historia inicia cuando se está celebrando el cumpleaaños de Peach en su castillo y un extraño pastel se recibe en la puerta. Cuando llega a Peach, salen del pastel Bowser Jr. y los otros siete Koopalings, quienes atrapan a la princesa del Reino Champiñón en el mismo pastel del que salieron y se la llevan; y en persecución de estos, van Mario, Luigi, un Toad azul y un Toad amarillo. Los items traje propulsor y traje de pingüino los tiran los otros Toad desde el Castillo de Peach. Son ocho mundos que tendrán a cada uno de los Koopalings como jefe. y el final con Bowser igual que en el juego Super Mario Bros 3.",
-	    "trailer_url": "http://www.youtube.com/embed/8mIjseFBqxo",
-	    "consoles": ["2"],
-	    "pictures": ["games/snmb/01.jpg","games/snmb/02.jpg","games/snmb/03.jpg"]
+	    "model" : "Softail Fat Boy FLSTF 2013",
+	    "description": "La Harley-Davidson Softail Fat Boy FLSTF de 2013 es una de las motocicletas de crucero por excelencia. Recordando los Chopper de hard tail de las décadas de los 60 y 70, después de casi cuarenta años, la motocicleta Harley-Davidson Fat Boy mantiene vivo ese legado. La FLSTF Fat Boy es la motocicleta “Fat Custom” original; relajada y lujosa con un perfil inconfundible en el camino. La Harley Fat Boy tiene un motor Twin Cam 103 Harley enfriado por aire con transmisión Cruise Drive de 6 velocidades, que proporciona mayor potencia al pasar, subir cuestas y para llevar pasajeros y equipaje Toma asiento en esta Harley o disfruta la experiencia de una de las motocicletas de crucero H-D de 2013. Además de esta motocicleta para crucero, conoce las otras motocicletas Harley Softail. También debes ver la Heritage Softail Classic, esta clásica motocicleta está lista para salir al camino. Si te gustan las Choppers, asegúrate de ver el modelo Fat Boy Special, otra de las motocicletas Custom Harley.",
+	    "image_url": "Imagenes motos/01.png",
+	    "price": "$17,729",
+	    "vendor": "Harley-Davidson"
         },
         {
             "id" : "02",
-            "name" : "Splinter Cell Blacklist",
-	    "description": "Splinter Cell Blacklist de Tom Clancy ofrece un modo cooperativo para dos jugadores con 4 tipos de misiones y 14 mapas con pantalla partida para 2 jugadores. Juega como Sam Fisher o Isaac Briggs (un aperativo de la CIA) y juega a dos: ayuda a tu compañero de equipo a acceder a partes del mapa a las que no podrías acceder tú solo, crea tus propias tácticas en función de tu estilo de juego y cubríos las espaldas mutuamente para completar misiones. ",
-	    "trailer_url": "http://www.youtube.com/embed/wYGoFH6bWXg",
-	    "consoles": ["1,3,4"],
-	    "pictures": ["games/SplinterCellBlacklist/01.jpg","games/SplinterCellBlacklist/02.jpg","games/SplinterCellBlacklist/03.png"]
+	    "model" : "Softail Slim FLS 2013",
+	    "description": "La Softail Slim FLS de 2013 mezcla el rudo estilo Bobber minimalista de la década de los 40 con el minimalismo antiguo actualizado. El modelo Slim ofrece toneladas de actitud sin adornos, características gruesas que incluyen las ruedas con aros negros, la cubierta negra redonda del depurador de aire, los manillares estilo Hollywood y las horquillas delanteras gruesas cromadas, así como acabados minimalistas y rudos en toda la motocicleta. Su guardabarros trasero corto y el perfil trasero angosto añaden a la apariencia larga y esbelta del modelo Softail Slim un estilo Chopper. El motor Twin Cam de 103 cm³ proporciona al modelo Slim FLS la potencia que necesitas para conquistar las colinas o pasar y dejar atrás el tráfico. Las características y los acabados negros y rudos del modelo Softail FLS proporcionan una actitud sin complicaciones que recuerda los modelos Bobber clásicos de 1940: El motor, los aros, la cubierta del depurador de aire, el faro delantero y todo lo demás tienen acabados negros. La H-D Slim se desplaza con una admirable maniobrabilidad a velocidades bajas y altas y su diseño liviano hace que sea rápido y fácil colocarla en y levantarla del soporte de estacionamiento. El modelo Harley Slim es una excelente compra con su estilo muscular, minimalista y rendimiento potente empacados en una motocicleta a precio asequible. Y si esta motocicleta no es lo que buscas, mira las otras motocicletas Custom Harley-Davidson, como la Softail Blackline FXS, la Sportster Forty-Eight XL1200X, la Dyna Fat Bob FXDF o la nueva Sportster Seventy-Two XL1200V. Harley-Davidson es el fabricante líder de motocicletas estilo Fat Custom, Dark Custom y Bobber y seguramente encontrarás una que sea perfecta para ti.",
+	    "image_url": "Imagenes motos/02.png",
+	    "price": "$16,099",
+	    "vendor": "Harley-Davidson"
         },
-        {
+	{
             "id" : "03",
-            "name" : "Call of Juarez Gunslinger",
-	    "description": "Call of Juarez Gunslinger es un auténtico homenaje al Salvaje Oeste y sus historias. Los jugadores vivirán el épico viaje de Silas Greaves, un rudo cazarecompensas que pasó su vida persiguiendo a los forajidos más conocidos de la época. Ha llegado la hora de que Silas cuente narre sus vivencias, vinculadas por completo a las del Salvaje Oeste, una mezcla de mitos y hechos históricos.",
-	    "trailer_url": "http://www.youtube.com/embed/OHh2RHuswqA",
-	    "consoles": ["1,3,4"],
-	    "pictures": ["games/CallofJuarezGunslinger/01.jpg","games/CallofJuarezGunslinger/02.jpg","games/CallofJuarezGunslinger/03.jpg"]
+	    "model" : "Sportster Iron 833 XL883N 2013",
+	    "description": "La Harley-Davidson Sportster Iron 833 XL883N de 2013 es una increíble forma de comenzar a conducir una motocicleta personalizada. Desde el auténtico motor Harley de 883 cm³ hasta los guardabarros cortados y el tanque de combustible estilo “Peanut”, cada pieza de la Sportster Iron 883 Harley tiene el estilo que deseas en tus motocicletas personalizadas. Para lograr una combinación de estilo y valor, mira la H-D Iron 883. También conoce las otras motocicletas Harley Sportster Custom, como la motocicleta 1200 Low Custom y la Nightster que tiene la apariencia de una motocicleta añeja. Todas las demás motocicletas Sportster tienen su propia personalidad. Conoce más sobre cada motocicleta y su estilo distintivo. Las motocicletas Harley de 2013 tienen todo lo que buscas en las motocicletas Custom.",
+	    "image_url": "Imagenes motos/03.png",
+	    "price": "$7,999",
+	    "vendor": "Harley-Davidson"
         },
-        {
+	{
             "id" : "04",
-            "name" : "Batman Arkham Origins",
-	    "description": "Batman: Arkham Origins estará basado en una ciudad de Gotham aun más extensa y será una precuela que tendrá lugar unos años antes de que se produjeran los hechos narrados en Batman: Arkham Asylum y Batman: Arkham City, los dos primeros juegos de la franquicia. Ambientado antes de que los criminales más peligrosos aterrorizaran a los habitantes de Gotham, el juego mostrará a un joven Batman que deberá enfrentarse a uno de los momentos más críticos de su corta carrera como azote del crimen y que definirá su camino para convertirse en el Caballero Oscuro. Mientras la historia se desarrolla, los jugadores se encontrarán con importantes personajes por primera vez y forjar importantes relaciones.",
-	    "trailer_url": "http://www.youtube.com/embed/zhfVYdhb0jo",
-	    "consoles": ["1,3,4,10,9,6"],
-	    "pictures": ["games/BatmanArkhamOrigins/01.jpg","games/BatmanArkhamOrigins/02.jpg","games/BatmanArkhamOrigins/03.jpg"]
+	    "model" : "Sportster 1200 Custom XL1200C 2013",
+	    "description": "La Harley-Davidson Sportster 1200 Custom XL1200C de 2013 es una verdadera motocicleta Harley Sportster Custom, solamente un poco más gruesa y más Custom que las demás Sportster. El neumático grueso delantero envuelto alrededor de una rueda de 16 pulg. le proporciona una atractiva apariencia Custom y le ofrece una ágil maniobrabilidad. Los componentes de estilo, incluyendo la nueva iluminación trasera, las ruedas fundidas de cromo de 5 rayos y un manillar tirado hacia atrás de estilo antiguo, proporcionan a la motocicleta Sportster 1200 Custom el estilo único de H-D con las funciones de una motocicleta moderna. Un asiento para dos personas te proporciona el suficiente espacio para llevar un pasajero en tu viaje. En 2013, el modelo Sportster 1200 Custom tiene una disponibilidad extremadamente limitada, la Edición especial seriada del 110º Aniversario tiene elementos estilísticos y características Premium conmemorativos del Aniversario que lo hacen uno de nuestros mejores modelos y una verdadera obra de arte viva con acabados finamente forjados que se envejecen y transforman de una manera única en cada vehículo. Al igual que todas las motos H-D, la Harley Sportster 1200 Custom viene lista para modificarla y agregarle accesorios para que se adapte a tu cuerpo y estilo personal; con la personalización de fábrica H-D1™ opcional, puedes diseñar tu 1200 Custom perfecta, personalizada y pedir que se fabrique según tus especificaciones directamente de la fábrica. El motor Evolution 1200 cm³ con recubrimiento de polvo negro está montado sobre caucho y es enfriado por aire, con culatas y cilindros de aluminio para que la carga sea más liviana, también tiene inyección electrónica de combustible. Observa el modelo Sportster XL883L de 2013 y todas las demás motocicletas H-D Sportster Custom incluyendo la Iron 883.",
+	    "image_url": "Imagenes motos/04.png",
+	    "price": "$11,034",
+	    "vendor": "Harley-Davidson"
         },
-        {
+	{
             "id" : "05",
-            "name" : "Diablo 3",
-	    "description": "Diablo III es un videojuego de rol de acción (aRPG), desarrollado por Blizzard Entertainment. Ésta es la continuación de Diablo II y la tercera parte de la serie que fue creada por la compañía estadounidense Blizzard. Su temática es de fantasía oscura y terrorífica.",
-	    "trailer_url": "http://www.youtube.com/embed/de2KlsLnIVU",
-	    "consoles": ["8,1,6"],
-	    "pictures": ["games/Diablo3/01.jpeg","games/Diablo3/02.jpg","games/Diablo3/03.jpeg"]
+	    "model" : "Dyna Street Bob FXDB 2013",
+	    "description": "La Harley-Davidson Dyna Street Bob FXDB de 2013 es una motocicleta Bobber clásica. También en 2013, la Dyna Street Bob FXDB viene con el acabado opcional Hard Candy Custom, un acabado de pintura con hojuelas grandes de metal que recuerda el estilo icónico de las motos Custom de la década de los 70 y ofrece un color brillante visible a través de un acabado rico y profundo. Si estás buscando motocicletas Bobber, te gustará el asiento individual súper bajo estilo “Slammed” de la Street Bob. Este asiento no sólo proporciona una característica al estilo de la motocicleta, sino que también te brinda comodidad. La apariencia Bobber también se encuentra en el manillar estilo mini “Ape Hanger” de acero inoxidable estilo postguerra. Agrega eso al guardabarros Dyna sin adornos, junto con una buena parte del metal despojado de la motocicleta, y tendrás una imagen Bobber clásica de la motocicleta. La luz trasera estilo salchicha de la década de los 40 se suma al estilo de la motocicleta Bobber clásica. La apariencia clásica continúa con las ruedas negras Harley de rayos de acero de 19 pulg. de la Harley Street Bob FXDB. Y los aros con acabados negros hacen juego con el estilo negro del motor Twin Cam 96. Conoce más acerca de nuestras otras motocicletas, incluyendo: La Super Glide Custom Harley-Davidson, la motocicleta Wide Glide Chopper y la Fat Bob Dark Custom que da la sensación de una motocicleta grande. También ve las motocicletas Harley Touring y las motocicletas Harley CVO.",
+	    "image_url": "Imagenes motos/05.png",
+	    "price": "$13,729",
+	    "vendor": "Harley-Davidson"
         },
-        {
+	{
             "id" : "06",
-            "name" : "Assassin's Creed 4 Black Flag",
-	    "description": "Assassin's Creed 4 Black Flag nos sumerge en la aterradora vida de los piratas . Únete a la tripulación del Capitán Edward Kenway bajo la badera negra y explora este corto pero brutal periodo de la historia.",
-	    "trailer_url": "http://www.youtube.com/embed/R2EVWKn1HcQ",
-	    "consoles": ["1,3,6,4,8"],
-	    "pictures": ["games/Assassin'sCreed4BlackFlag/01.jpg","games/Assassin'sCreed4BlackFlag/02.jpg","games/Assassin'sCreed4BlackFlag/03.jpg"]
+	    "model" : "Night Rod Special VRSCDX 2013",
+	    "description": "La Harley-Davidson Night Rod Special VRSCDX de 2013 es una imponente motocicleta de alto rendimiento. Esta poderosa motocicleta de crucero tiene un manillar de baja elevación estilo Drag, diseñado ergonómicamente, que coloca al motociclista en una posición agresiva pero cómoda. El escape H-D Night Rod Special tiene silenciadores Harley dobles con tapas del extremo negras. Las pantallas del escape también se encuentran en el escape de la Harley VRSCDX. Este sistema de silenciadores para motocicleta demuestra que un escape de rendimiento también puede ser un hermoso juego de tubos. Además del hermoso escape Harley, la H-D Night Rod Special VRSCDX tiene un neumático trasero ultra ancho; exactamente lo que tú deseas en la parte trasera de una poderosa motocicleta de crucero. Observa las fotografías de esta potente motocicleta de crucero y descubre por qué se distingue del resto. También debes ver las demás motocicletas de potencia V-Rod y conocer más sobre las otras Harley, como la Softail Fat Boy Special, una de las otras motocicletas Harley Custom.",
+	    "image_url": "Imagenes motos/06.png",
+	    "price": "$13,729",
+	    "vendor": "Harley-Davidson"
         },
-        {
+	{
             "id" : "07",
-            "name" : "Ride to Hell Route 666",
-	    "description": "¿Harto de dudar entre la acción y la estrategia? Deep Silver combina ahora ambos aspectos en un solo juego: Ride to Hell: Route 666 permite a los jugadores experimentar todo el estilo de vida de las bandas de moteros, aunque aquellos que pretendan dominar la infame Ruta 66 tendrán que actuar con inteligencia.",
-	    "trailer_url": "http://www.youtube.com/embed/5CY3q76VfVc",
-	    "consoles": ["3"],
-	    "pictures": ["games/RidetoHellRoute666/01.jpg","games/RidetoHellRoute666/02.jpg","games/RidetoHellRoute666/03.jpg"]
+	    "model" : "KEEWAY SUPERLIGHT 125 2013",
+	    "description": "La Superlight Limited Edition en color negro mate al más puro estilo minimalista, es la nueva Custom renovada. Su atractivo diseño, la calidad y la profusión de sus componentes en color negro mate la convierte en un vehículo especialmente exquisito. Es una motocicleta muy original, tiene accesorios diseñados para todos aquellos que quieren una moto verdaderamente única. Con sus prestaciones y su elegancia, la Superlight es ideal para aquellos que buscan sobresalir de los demás y vivir cada día con mucha pasión, ninguna motocicleta Custom podrá transmitirte las sensaciones que la Superlight te hará sentir. La perfecta combinación del estilo urbano y elegancia hacen de esta motocicleta la favorita para el paseo por la cuidad o carretera, tiene un andar espectacular el doble escape superpuesto de la moto otorga una mejor apariencia el asiento amplio otorga confort y mayor comodidad lo que permite llevar de una manera placentera a un acompañante, la altura de la motocicleta logra que sea fácil el subir o bajar de ella, tiene una marcha muy segura y estable, no cabe duda que la Superlight robara las miradas de todos a su paso. Fue inspirada en aquellos de espíritus rebeldes pero que no perdonan el status que una motocicleta pudiera proporcionarle. La Superlight trae un estilo propio.",
+	    "image_url": "Imagenes motos/07.png",
+	    "price": "$2,280",
+	    "vendor": "KEEWAY"
         },
-        {
+	{
             "id" : "08",
-            "name" : "Resident Evil Revelations",
-	    "description": "Iniciándose la aventura cuando Jill Valentine y su compañero Parker Luciani llegan al Queen Zenobia, un buque abandonado en mitad del Mediterráneo en el que tan solo 94 minutos antes se había perdido contacto con Chris Redfield, aunque no tardaremos en darnos cuenta que todo es una trampa del grupo terrorista Veltro, el cual se creía ya disuelto.A partir de ahí el juego nos invita a superar una serie de fases con la peculiaridad de que cada una de ellas irá saltando de un punto a otro de la trama, e incluso no harán retroceder en la historia a modo de flashbacks para poder tener una visión más global de todo lo sucedido, tomando así el control directo en algún momento de la partida de cada uno de los diferentes protagonistas de la aventura.",
-	    "trailer_url": "http://www.youtube.com/embed/A5QTLtLr844",
-	    "consoles": ["1,3,4,10,6"],
-	    "pictures": ["games/ResidentEvilRevelations/01.jpg","games/ResidentEvilRevelations/02.jpg","games/ResidentEvilRevelations/03.jpg"]
+	    "model" : "KEEWAY CRUISER 250",
+	    "description": "La motocicleta KEEWAY CRUISER 250 cambiara la forma de ver las motocicletas Choopers, cuenta con el diseño de las motos deportivas y las cualidades de la marca KEEWAY es ideal para los trayectos cortos o largos por la seguridad y la comodidad que otorga al piloto y al mismo tiempo el poder de una motocicleta deportiva. Los rines, escape, acentúan esta descripción, fue diseñada pensando en las personas que buscan en una motocicleta eficiencia, estabilidad, alto rendimiento y una gran comodidad.",
+	    "image_url": "Imagenes motos/08.png",
+	    "price": "$3,600",
+	    "vendor": "KEEWAY"
         },
         {
             "id" : "09",
-            "name" : "Heroes Of Might And Magic 6",
-	    "description": "Heroes of Might and Magic (Héroes de magia y poder) es un saga de videojuegos que se desarrolla en el mismo universo ficticio de espadas, dragones y fantasía medieval que la saga Might and Magic. Sin embargo, mientras que Might and Magic es una serie de videojuegos de rol en primera persona, Heroes son videojuegos de rol táctico por turno.El jugador controla un ejército compuesto por héroes y una gran variedad de criaturas que tiene que vencer a los demás ejércitos que luchan por el control del escenario, o bien ha de cumplir otra condición de victoria especificada en el propio escenario.",
-	    "trailer_url": "http://www.youtube.com/embed/wEBGPcRBnQU",
-	    "consoles": ["6"],
-	    "pictures": ["games/HeroesOfMightAndMagic6/01.jpg","games/HeroesOfMightAndMagic6/02.jpg","games/HeroesOfMightAndMagic6/03.jpg"]
-        },
-        {
-            "id" : "10",
-            "name" : "Super Street Fighter IV",
-	    "description": "Super Street Fighter IV es un videojuego de lucha producido por Capcom para las consolas PlayStation 3, Xbox 360 y Nintendo 3DS. La mayor novedad será la inclusión de diez nuevos personajes. Primero la inédita Juri Han y los dos clásicos de Street Fighter II que faltaban en el plantel de Street Fighter IV, T. Hawk y Dee Jay. Más adelante se confirmaron tres personajes más: Guy y Cody (provenientes de Final Fight) y Adon, personaje proveniente del Street Fighter original. Después se confirmó la presencia de Ibuki, Dudley y Makoto, los tres provenientes de Street Fighter III y por último a Hakan, otro nuevo personaje.",
-	    "trailer_url": "http://www.youtube.com/embed/pzyog8wzGRQ",
-	    "consoles": ["1,3,10,6"],
-	    "pictures": ["games/SuperStreetFighterIV/01.jpg","games/SuperStreetFighterIV/02.jpg","games/SuperStreetFighterIV/03.png"]
-        }
-
+	    "model" : "REBELLIAN",
+	    "description": "Motociclete VENTO con un estilo clasico de Chopper que es ideal para los trayectos cortos o largos por la seguridad y la comodidad que otorga al piloto y al mismo tiempo el poder de una motocicleta deportiva. Los rines, escape, acentúan esta descripción, fue diseñada pensando en las personas que buscan en una motocicleta eficiencia, estabilidad, alto rendimiento y una gran comodidad.",
+	    "image_url": "Imagenes motos/09.png",
+	    "price": "$2,380",
+	    "vendor": "VENTO"
+	}
     ]
 }
