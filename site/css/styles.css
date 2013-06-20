@@ -100,16 +100,22 @@ body{
 
 /* media queries */
 @media only screen and( max-width: 320px ){
+	
+	.image-background img{
+		width: ;
+		height: ;
+	}/* img */
+	
 	.menu ul{
         list-style-type: none;
         text-align: center;
         left: 0;
         padding-top: .8em;
     }/* menu ul */
+	
     .menu li{
         display: inline;
         color: #FFF;
-        text-transform: uppercase;
         font-size: .8125em;
         font-weight: bold;
         padding: .2em;
