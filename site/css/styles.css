@@ -14,13 +14,13 @@ body{
 }/* body */
 
 #logo{
-	background: url(images/memostra.png);
+	background: url(../images/memostra.png);
 	display: block;
 	clear: both;
 }/* logo */
 
 #banner{
-	background: url(images/banner.png);
+	background: url(../images/banner.png);
 	display: block;
 	clear: both;
 	width: 100%;
@@ -44,6 +44,10 @@ body{
 }/* menu-text */
 
 .menu{
+	display: block;
+    width: 100%;
+    height: 40px;
+    background: #000000;
 	display: inline-block;
 }/* menu */
 
@@ -51,12 +55,8 @@ body{
 	background: #696664;
 }/* menu-active */
 
-.menu-inactive{
-	background: #000000;
-}/* menu-inactive */
-
 .separator{
-	background: url(images/separator.png);
+	background: url(../images/separator.png);
 	background-repeat: repeat-x;
 	width: 100%;
 }/* separator */
@@ -100,7 +100,20 @@ body{
 
 /* media queries */
 @media only screen and( max-width: 320px ){
-	
+	.menu ul{
+        list-style-type: none;
+        text-align: center;
+        left: 0;
+        padding-top: .8em;
+    }/* menu ul */
+    .menu li{
+        display: inline;
+        color: #FFF;
+        text-transform: uppercase;
+        font-size: .8125em;
+        font-weight: bold;
+        padding: .2em;
+    }/* menu li */
 } /* media 320px */
 
 @media only screen and( min-width: 321px ) and ( max-width: 480px ){
