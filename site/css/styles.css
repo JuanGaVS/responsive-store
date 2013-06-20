@@ -17,6 +17,7 @@ body{
 	background: url(../images/memostra.png);
 	display: block;
 	clear: both;
+	background-repeat:no-repeat;
 }/* logo */
 
 #banner{
@@ -100,11 +101,34 @@ body{
 
 /* media queries */
 @media only screen and( max-width: 320px ){
+	#logo{
+		height: 1.375em;
+	}/* logo */
+
+	#banner{
+		height: 3.4378em;
+	}/* banner */
+	/*----------------------------HOME------------------------*/
+	
+	.image-background{
+		height: 8.625em;
+	}/* image-background*/
+	
+	.product{
+		height: 11.03125em;
+		width:  16.8125em;
+	}/* product */
 	
 	.image-background img{
-		width: ;
-		height: ;
+		width: 12.90625em;
+		height: 7.59375em;
 	}/* img */
+	
+	.separator{
+		height: 0.125em;
+	}/* separator */
+	
+	/*--------------------------------------------------------*/
 	
 	.menu ul{
         list-style-type: none;
