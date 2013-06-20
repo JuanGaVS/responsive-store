@@ -14,13 +14,13 @@ body{
 }/* body */
 
 #logo{
-	background: url(file:/images/memostra.png);
+	background: url(images/memostra.png);
 	display: block;
 	clear: both;
 }/* logo */
 
 #banner{
-	background: url(file:/images/banner.png);
+	background: url(images/banner.png);
 	display: block;
 	clear: both;
 	width: 100%;
@@ -56,7 +56,7 @@ body{
 }/* menu-inactive */
 
 .separator{
-	background: url(file:/images/separator.png);
+	background: url(images/separator.png);
 	background-repeat: repeat-x;
 	width: 100%;
 }/* separator */
