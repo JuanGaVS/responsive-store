@@ -1,1 +1,111 @@
 /* CSS Document */
+/*reset*/
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, dl, dt, dd, ol, ul, li, fieldset, form, label, legend { vertical-align: baseline; font-family: inherit; font-weight: inherit; font-style: inherit; font-size: 100%; outline: 0; padding: 0; margin: 0; border: 0; }
+:focus { outline: 0; }
+body { background: white; line-height: 1; color: black; }
+ol, ul { list-style: none; }
+table { border-collapse: separate; border-spacing: 0; }
+caption, th, td { font-weight: normal; text-align: left; }
+blockquote:before, blockquote:after, q:before, q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+
+body{
+	
+}/* body */
+
+#logo{
+	background: url(file:///C|/Users/Pablo/Documents/GitHub/responsive-store/site/images/memostra.png);
+	display: block;
+	clear: both;
+}/* logo */
+
+#banner{
+	background: url(file:///C|/Users/Pablo/Documents/GitHub/responsive-store/site/images/banner.png);
+	display: block;
+	clear: both;
+	width: 100%;
+}/* banner */
+
+.image-background{
+	background: #cccecf;
+	display:block;
+}/* image-background*/
+
+.main-title{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #000000;
+}/* main-title */
+
+.menu-text{
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}/* menu-text */
+
+.menu{
+	display: inline-block;
+}/* menu */
+
+.menu-active{
+	background: #696664;
+}/* menu-active */
+
+.menu-inactive{
+	background: #000000;
+}/* menu-inactive */
+
+.separator{
+	background: url(file:///C|/Users/Pablo/Documents/GitHub/responsive-store/site/images/separator.png);
+	background-repeat: repeat-x;
+	width: 100%;
+}/* separator */
+
+/*----------------------------HOME_BOTH------------------------*/
+.product-detail-name-home{
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}/* product-detail-name-home */
+
+.product-detail-home{
+	color: #d17d2c;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}/* product-detail-home */
+
+.pager{
+	background: #eceef1;
+	disable
+}/* pager */
+
+.disable-butonn-background{
+	color: #c0bfbf;
+	
+}/* disable-butonn-background */
+
+.enable-butonn-background{
+	color: #696664;
+	
+}/* enable-butonn-background */
+
+.active-page{
+	color: #343433;
+}/* active-page */
+
+.pager-text{
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}/* pager-text */
+
+/*-------------------------------------------------------------*/
+
+/* media queries */
+@media only screen and( max-width: 320px ){
+	
+} /* */
+
+@media only screen and( min-width: 321px ) and ( max-width: 480px ){
+	
+} /* media 480px */
