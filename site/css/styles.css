@@ -76,17 +76,14 @@ body{
 
 .pager{
 	background: #eceef1;
-	disable
 }/* pager */
 
 .disable-butonn-background{
 	color: #c0bfbf;
-	
 }/* disable-butonn-background */
 
 .enable-butonn-background{
 	color: #696664;
-	
 }/* enable-butonn-background */
 
 .active-page{
