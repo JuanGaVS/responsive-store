@@ -17,6 +17,7 @@ body{
 	background: url(../images/memostra.png);
 	display: block;
 	clear: both;
+	background-repeat:no-repeat;
 }/* logo */
 
 #banner{
@@ -24,6 +25,7 @@ body{
 	display: block;
 	clear: both;
 	width: 100%;
+	background-repeat:no-repeat;
 }/* banner */
 
 .image-background{
@@ -44,16 +46,16 @@ body{
 }/* menu-text */
 
 .menu{
+	display: block;
+    width: 100%;
+    height: 40px;
+    background: #000000;
 	display: inline-block;
 }/* menu */
 
 .menu-active{
 	background: #696664;
 }/* menu-active */
-
-.menu-inactive{
-	background: #000000;
-}/* menu-inactive */
 
 .separator{
 	background: url(../images/separator.png);
@@ -100,9 +102,101 @@ body{
 
 /* media queries */
 @media only screen and( max-width: 320px ){
+	#logo{
+		height: 1.375em;
+	}/* logo */
+
+	#banner{
+		height: 3.4378em;
+	}/* banner */
+	/*----------------------------HOME------------------------*/
 	
+	.image-background{
+		height: 8.625em;
+	}/* image-background*/
+	
+	.product{
+		height: 11.03125em;
+		width:  16.8125em;
+	}/* product */
+	
+	.image-background img{
+		width: 12.90625em;
+		height: 7.59375em;
+	}/* img */
+	
+	.separator{
+		height: 0.125em;
+	}/* separator */
+	
+	/*--------------------------------------------------------*/
+	
+	.menu ul{
+        list-style-type: none;
+        text-align: center;
+        left: 0;
+        padding-top: .8em;
+    }/* menu ul */
+	
+    .menu li{
+        display: inline;
+        color: #FFF;
+        font-size: .8125em;
+        font-weight: bold;
+        padding: .2em;
+    }/* menu li */
 } /* media 320px */
 
 @media only screen and( min-width: 321px ) and ( max-width: 480px ){
+	
+	#logo{
+		height: 2.5em;
+	}/* logo */
+
+	#banner{
+		height: 5.125em;
+	}/* banner */
+	
+	.main-title{
+	font-size: 2.1875em;
+	margin-bottom: .8em;
+	}/* main-title */
+	
+	/*----------------------------HOME------------------------*/
+	
+	.image-background{
+		height: 12.5em;
+	}/* image-background*/
+	
+	.product{
+		height: 15em;
+		width:  25.375em;
+	}/* product */
+	
+	.image-background img{
+		width: 19.6875em;
+		height: 11.5em;
+	}/* img */
+	
+	.separator{
+		height: 0.0625em;
+	}/* separator */
+	
+	/*--------------------------------------------------------*/
+	
+	.menu ul{
+        list-style-type: none;
+        text-align: center;
+        left: 0;
+        padding-top: .875em;
+    }/* menu ul */
+	
+    .menu li{
+        display: inline;
+        color: #FFF;
+        font-size: 1.375em;
+        font-weight: bold;
+        padding: .2em;
+    }/* menu li */
 	
 } /* media 480px */
