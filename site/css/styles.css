@@ -14,14 +14,14 @@ body{
 }/* body */
 
 #logo{
-	background: url(../images/memostra.png);
+	/* background: url(../images/memostra.png);*/
 	display: block;
 	clear: both;
 	background-repeat:no-repeat;
 }/* logo */
 
 #banner{
-	background: url(../images/banner.png);
+	/* background: url(../images/banner.png); */
 	display: block;
 	clear: both;
 	width: 100%;
@@ -103,31 +103,71 @@ body{
 /* media queries */
 @media only screen and( max-width: 320px ){
 	#logo{
-		height: 1.375em;
+		margin: 0.531em 0 0.375em 0;
+	}/* logo */
+	
+	#logo img{
+		height: 1.438em;
 	}/* logo */
 
 	#banner{
-		height: 3.4378em;
+		margin: 0 0 0.438em 0;
 	}/* banner */
+
+	#banner img{
+		height: 3.438em;
+	}/* logo */
+	
+	.main-title{
+		font-size: 1.125em;
+		margin: 0 0 0.531em 0;
+	}/* main-title */
+	
 	/*----------------------------HOME------------------------*/
 	
 	.image-background{
 		height: 8.625em;
+		margin: 0.208em 0 0.396em 0;
 	}/* image-background*/
 	
 	.product{
 		height: 11.03125em;
 		width:  16.8125em;
+		margin: 0 0 0 0.781em;
 	}/* product */
 	
+	.product-detail-name-home{
+		font-size: 1em;
+	}/* product-detail-name-home */
+	
+	.product-detail-home{
+		font-size: 1em;
+	}/* product-detail-home */
+		
+	.price{
+		float:left;
+	}/* price */
+	
+	.cod{
+		float:right;
+	}/* cod */
+	
 	.image-background img{
+		margin: 0.438em 0 0.438em 0;
 		width: 12.90625em;
 		height: 7.59375em;
 	}/* img */
 	
 	.separator{
 		height: 0.125em;
+		margin: 0.750em 0 0.750em 0;
 	}/* separator */
+	
+	#pager{
+		background-color:#333;
+		height: 2.750em;
+		margin: 1.656em 0 0.875em 0;
+	}/* pager */
 	
 	/*--------------------------------------------------------*/
 	
@@ -144,9 +184,60 @@ body{
         font-size: .8125em;
         font-weight: bold;
         padding: .2em;
+		margin-left: 1.750em;
     }/* menu li */
 } /* media 320px */
 
 @media only screen and( min-width: 321px ) and ( max-width: 480px ){
+	
+	#logo{
+		height: 2.5em;
+	}/* logo */
+
+	#banner{
+		height: 5.125em;
+	}/* banner */
+	
+	.main-title{
+		font-size: 2.1875em;
+		margin-bottom: .8em;
+	}/* main-title */
+	
+	/*----------------------------HOME------------------------*/
+	
+	.image-background{
+		height: 12.5em;
+	}/* image-background*/
+	
+	.product{
+		height: 15em;
+		width:  25.375em;
+	}/* product */
+	
+	.image-background img{
+		width: 19.6875em;
+		height: 11.5em;
+	}/* img */
+	
+	.separator{
+		height: 0.0625em;
+	}/* separator */
+	
+	/*--------------------------------------------------------*/
+	
+	.menu ul{
+        list-style-type: none;
+        text-align: center;
+        left: 0;
+        padding-top: .875em;
+    }/* menu ul */
+	
+    .menu li{
+        display: inline;
+        color: #FFF;
+        font-size: 1.375em;
+        font-weight: bold;
+        padding: .2em;
+    }/* menu li */
 	
 } /* media 480px */
