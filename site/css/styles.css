@@ -179,12 +179,11 @@ body{
     }/* menu ul */
 	
     .menu li{
-        display: inline;
+        display: inline-block;
         color: #FFF;
         font-size: .8125em;
         font-weight: bold;
-        padding: .2em;
-		margin-left: 1.750em;
+		margin-right: 1em;
     }/* menu li */
 } /* media 320px */
 

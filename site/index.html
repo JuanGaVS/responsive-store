@@ -16,6 +16,16 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 </head> 
 <body> 
+	<script type="text/javascript">
+        function lee_json() {
+            $.getJSON("/datos.json", function(datos) {
+                alert("Dato: " + datos["dato"]);
+                $.each(datos["primos"], function(idx,primo) {
+                    alert("Numero primo: " + primo);
+                });
+            });
+        }
+    </script>
 	<div id="header" >
     	<div id="logo" >
         	<img src="images/memostra.png" />
@@ -98,7 +108,7 @@
     	<div class="menu">
             <ul>
                 <li>
-                    Home
+                    Home 
                 </li>
                 <li>
                     Categories
