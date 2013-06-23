@@ -191,12 +191,22 @@ body{
 @media only screen and( min-width: 321px ) and ( max-width: 480px ){
 	
 	#logo{
+		margin: 0.5625em 0 0.4375em 0.625em;
+	}/* logo */
+	
+	#logo img{
 		height: 2.5em;
 	}/* logo */
 
+
 	#banner{
-		height: 5.125em;
+		margin: 0 0 0.6875em 0;
 	}/* banner */
+
+	#banner img{
+		height: 5.125em;
+	}/* logo */
+
 	
 	.main-title{
 		font-size: 2.1875em;
@@ -205,14 +215,36 @@ body{
 	
 	/*----------------------------HOME------------------------*/
 	
-	.image-background{
-		height: 12.5em;
+	.image-background{  /*CHECK MARGIN*/
+		height: 11.875em;
+		padding-top: 0.625em;
+		margin-bottom: .5em;
+		/*margin: 0.208em 0 0.396em 0;*/
 	}/* image-background*/
 	
-	.product{
+	
+	.product{ 
 		height: 15em;
 		width:  25.375em;
+		margin: 0 3.375em 0 1.0625em;
 	}/* product */
+	
+	
+	.product-detail-name-home{
+		font-size: 1.5em;
+	}/* product-detail-name-home */
+	
+	.product-detail-home{
+		font-size: 1.5em;
+	}/* product-detail-home */
+		
+	.price{
+		float:left;
+	}/* price */
+	
+	.cod{
+		float:right;
+	}/* cod */
 	
 	.image-background img{
 		width: 19.6875em;
@@ -221,23 +253,35 @@ body{
 	
 	.separator{
 		height: 0.0625em;
+		margin: 1.3125em 0 1.3125em 0;
 	}/* separator */
 	
+	#pager{
+		background-color:#333;
+		height: 4.25em;
+		margin: 2em 0 1.25em 0;
+	}/* pager */
+	
 	/*--------------------------------------------------------*/
+
+	.menu{
+		height: 3em;
+	}
 	
 	.menu ul{
         list-style-type: none;
         text-align: center;
         left: 0;
-        padding-top: .875em;
+        padding-top: 1em;
     }/* menu ul */
 	
-    .menu li{
+    .menu li{ /*CHECK MARGIN*/
         display: inline;
         color: #FFF;
         font-size: 1.375em;
         font-weight: bold;
         padding: .2em;
+		/*margin-left: 1.750em;*/
     }/* menu li */
 	
 } /* media 480px */
