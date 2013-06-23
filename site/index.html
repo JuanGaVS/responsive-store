@@ -16,16 +16,6 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 </head> 
 <body> 
-	<script type="text/javascript">
-        function lee_json() {
-            $.getJSON("/datos.json", function(datos) {
-                alert("Dato: " + datos["dato"]);
-                $.each(datos["primos"], function(idx,primo) {
-                    alert("Numero primo: " + primo);
-                });
-            });
-        }
-    </script>
 	<div id="header" >
     	<div id="logo" >
         	<img src="images/memostra.png" />
@@ -121,9 +111,8 @@
             </ul>
    		</div>
     </div>
-    
     <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
-    <script src="js/mainKevin.js" type="text/javascript"></script>
-    
+    <script src="js/main.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery.pajinate.js"></script>
 </body>
 </html>
