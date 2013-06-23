@@ -56,17 +56,4 @@
 		
 		lee_json();
 		
-<<<<<<< HEAD
-=======
-		console.log("Antes");
-		
-		$('#paging_products').pajinate({
-					num_page_links_to_display : 5,
-					items_per_page : 2	
-				});
-				
-		console.log("Despues");
-		
-		
->>>>>>> 1f864f4607ec8ce548a767cea5a23968be0739e8
 		
