@@ -45,7 +45,7 @@
 				//$('#paging_products').append('<div id="pager" class="page_navigation"></div>');
 				
 				$('#paging_products').pajinate({
-					items_per_page : 3
+					items_per_page : 4
 				});
 				
 				
