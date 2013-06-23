@@ -49,10 +49,14 @@
 		
 		lee_json();
 		
+		console.log("Antes");
+		
 		$('#paging_products').pajinate({
 					num_page_links_to_display : 5,
 					items_per_page : 2	
 				});
+				
+		console.log("Despues");
 		
 		
 		
