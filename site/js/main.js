@@ -5,7 +5,7 @@
 				console.log('get');
                 $.each(datos["motos"], function(idx,id) {
 					
-					$('#content-home').append(
+					$('#paging_products').append(
 					'<div class="product" >'+
 '        	<h2 class="product-detail-home" >'+
             id.model+
@@ -33,20 +33,26 @@
  '                   </span>'+
 '                </div>'+
 '            </div>'+
-'        </div>'+
-        
-'        <div class="separator" >'+
+'        <div class="separator" ></div>'+
 '        </div>'
+        
+
 					);
 					   
                 });
 				
-				$('#content-home').append('<div id="pager" ></div>');
+				$('#paging_products').append('<div id="pager" class="page_navigation"></div>');
 				
             });
         }
 		
 		
 		lee_json();
+		
+		$('#paging_products').pajinate({
+					num_page_links_to_display : 5,
+					items_per_page : 2	
+				});
+		
 		
 		
