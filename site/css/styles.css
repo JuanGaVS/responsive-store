@@ -76,8 +76,8 @@ body{
 	font-weight: bold;
 }/* product-detail-home */
 
-.pager{
-	background: #eceef1;
+#pager{
+	background: #cccdce;
 }/* pager */
 
 .disable-butonn-background{
@@ -97,6 +97,19 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	font-weight: bold;
 }/* pager-text */
+
+.page_navigation , .alt_page_navigation{
+	padding-bottom: 10px;
+}
+
+.page_navigation a, .alt_page_navigation a{
+	color:white;
+	text-decoration:none;
+	display: inline-block;
+	font-family: Tahoma;
+	background-color: #000;
+	padding:0.188em 0.313em;
+}
 
 /*-------------------------------------------------------------*/
 
@@ -164,7 +177,6 @@ body{
 	}/* separator */
 	
 	#pager{
-		background-color:#333;
 		height: 2.750em;
 		margin: 1.656em 0 0.875em 0;
 	}/* pager */
@@ -185,6 +197,13 @@ body{
         font-weight: bold;
 		margin-right: 1em;
     }/* menu li */
+	
+	/*-------------------------Pager---------------------------*/
+	.page_navigation a, .alt_page_navigation a{
+		margin: 1em 0.2em 1em 0.25em;
+		font-size: 1em;
+	}
+	/*---------------------------------------------------------*/
 } /* media 320px */
 
 @media only screen and( min-width: 321px ) and ( max-width: 480px ){
@@ -256,7 +275,6 @@ body{
 	}/* separator */
 	
 	#pager{
-		background-color:#333;
 		height: 4.25em;
 		margin: 2em 0 1.25em 0;
 	}/* pager */
@@ -283,4 +301,10 @@ body{
 		/*margin-left: 1.750em;*/
     }/* menu li */
 	
+	/*-------------------------Pager---------------------------*/
+	.page_navigation a, .alt_page_navigation a{
+		margin: 1em 0.2em 1em 0.2em;
+		font-size: 1.5em;
+	}
+	/*---------------------------------------------------------*/
 } /* media 480px */
