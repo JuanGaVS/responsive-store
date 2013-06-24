@@ -20,6 +20,18 @@ body{
 	background-repeat:no-repeat;
 }/* logo */
 
+#content-categories{
+	display: none;
+}/*  */
+
+#content-about{
+	display: none;
+}/* content-about */
+
+#content-contact-us{
+	display: none;
+}/* content-contact-us */
+
 #banner{
 	/* background: url(../images/banner.png); */
 	display: block;
