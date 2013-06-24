@@ -141,24 +141,35 @@ var motos =
 				hideAll();
 				$('#content-home').show();
 				
-				
-				
-				$('#link-about').hammer().on('tap', function(ev){
-					
+				$('#link-about').on('click', function( ) {
+				//$('#link-about').hammer().on('tap', function(ev){
 					hideAll();
-					$('#content-about_us').show();			
+					$('#content-about_us').show();
+					$('#content-about_us').transition({
+  						perspective: '100px',
+  						rotateY: '360deg'
+					});			
 				});
 				
-				$('#link-contact').hammer().on('tap', function(ev){
-					
+				$('#link-contact').on('click', function( ) {
+				//$('#link-contact').hammer().on('tap', function(ev){
 					hideAll();
 					$('#content-contact_us').show();
+					$('#content-contact-us')
+  						.transition({ x: -40 })
+  						.transition({ y: 40 })
+  						.transition({ x: 0 })
+  						.transition({ y: 0 });
 				});
 				
-				$('#link-home').hammer().on('tap', function(ev){
-					
+				$('#link-home').on('click', function( ) {
+				//$('#link-home').hammer().on('tap', function(ev){
 					hideAll();
 					$('#content-home').show();
+					$('#content-home').transition({
+  						perspective: '100px',
+  						rotateY: '360deg'
+					});
 				});
 				
 				lee_json();
