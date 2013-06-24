@@ -23,7 +23,11 @@
 <file name="08.png" server="C:/AppServ/www/responsive-store/site/" local="130161699584776295" remote="130161699580000000" Dst="0" />
 <file name="09.png" server="C:/AppServ/www/responsive-store/site/" local="130161699591766695" remote="130161699590000000" Dst="0" />
 <file name="banner.png" server="C:/AppServ/www/responsive-store/site/" local="130161647836101187" remote="130161647830000000" Dst="0" />
+<<<<<<< HEAD
 <file name="memostra.png" server="C:/AppServ/www/responsive-store/site/" local="130161647836331200" remote="130161647830000000" Dst="0" />
+=======
+<file name="memostra.png" server="C:/AppServ/www/responsive-store/site/" local="130165116461222895" remote="130165116460000000" Dst="0" />
+>>>>>>> 0161f1938407c5bc1591666099ebaa1d01f7026d
 <file name="separator.png" server="C:/AppServ/www/responsive-store/site/" local="130161669953992533" remote="130161669950000000" Dst="0" />
 <file name="share.png" server="C:/AppServ/www/responsive-store/site/" local="130161624794967174" remote="130161624790000000" Dst="0" />
 </dwsync>

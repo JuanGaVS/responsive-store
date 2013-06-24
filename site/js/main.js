@@ -130,6 +130,7 @@ var motos =
 		
  }
 		
+<<<<<<< HEAD
 		$(document).ready(function(){
 			
 			function hideAll(){
@@ -167,5 +168,8 @@ var motos =
 		});     
 		
 		
+=======
+lee_json();
+>>>>>>> 0161f1938407c5bc1591666099ebaa1d01f7026d
 		
 		
