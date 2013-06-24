@@ -1,4 +1,5 @@
 // JavaScript Document
+var paginaActual = "#content-home";
 var motos = 
     [
         {
@@ -144,32 +145,38 @@ var motos =
 				$('#link-about').on('click', function( ) {
 				//$('#link-about').hammer().on('tap', function(ev){
 					hideAll();
-					$('#content-about_us').show();
-					$('#content-about_us').transition({
+					$( paginaActual ).fadeOut( "slow" );
+					$('#content-about_us').fadeIn( "fast" );
+					/*$('#content-about_us').transition({
   						perspective: '100px',
   						rotateY: '360deg'
-					});			
+					});*/
+					paginaActual = "#content-about_us"; 			
 				});
 				
 				$('#link-contact').on('click', function( ) {
 				//$('#link-contact').hammer().on('tap', function(ev){
 					hideAll();
-					$('#content-contact_us').show();
-					$('#content-contact-us')
+					$( paginaActual ).fadeOut( "slow" );
+					$('#content-contact_us').fadeIn( "fast" );
+					/*$('#content-contact-us')
   						.transition({ x: -40 })
   						.transition({ y: 40 })
   						.transition({ x: 0 })
-  						.transition({ y: 0 });
+  						.transition({ y: 0 });*/
+					paginaActual = "#content-contact_us"; 
 				});
 				
 				$('#link-home').on('click', function( ) {
 				//$('#link-home').hammer().on('tap', function(ev){
 					hideAll();
-					$('#content-home').show();
-					$('#content-home').transition({
+					$( paginaActual ).fadeOut( "slow" );
+					$('#content-home').fadeIn( "slow" );
+					paginaActual = "#content-home"; 
+					/*$('#content-home').transition({
   						perspective: '100px',
   						rotateY: '360deg'
-					});
+					});*/
 				});
 				
 				lee_json();
