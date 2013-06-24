@@ -146,7 +146,7 @@ var motos =
 				//$('#link-about').hammer().on('tap', function(ev){
 					hideAll();
 					$( paginaActual ).fadeOut( "slow" );
-					$('#content-about_us').fadeIn( "fast" );
+					$('#content-about_us').fadeIn( "slow" );
 					/*$('#content-about_us').transition({
   						perspective: '100px',
   						rotateY: '360deg'
@@ -158,7 +158,7 @@ var motos =
 				//$('#link-contact').hammer().on('tap', function(ev){
 					hideAll();
 					$( paginaActual ).fadeOut( "slow" );
-					$('#content-contact_us').fadeIn( "fast" );
+					$('#content-contact_us').fadeIn( "slow" );
 					/*$('#content-contact-us')
   						.transition({ x: -40 })
   						.transition({ y: 40 })
