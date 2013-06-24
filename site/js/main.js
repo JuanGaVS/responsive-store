@@ -1,5 +1,4 @@
 // JavaScript Document
-// JavaScript Document
 var motos = 
     [
         {
@@ -131,6 +130,42 @@ var motos =
 		
  }
 		
-		lee_json();
+		$(document).ready(function(){
+			
+			function hideAll(){
+				$('#content-show_product').hide();
+				$('#content-about_us').hide();
+				$('#content-contact_us').hide();
+				$('#content-home').hide();
+			}
+				hideAll();
+				$('#content-home').show();
+				
+				
+				
+				$('#link-about').hammer().on('tap', function(ev){
+					
+					hideAll();
+					$('#content-about_us').show();			
+				});
+				
+				$('#link-contact').hammer().on('tap', function(ev){
+					
+					hideAll();
+					$('#content-contact_us').show();
+				});
+				
+				$('#link-home').hammer().on('tap', function(ev){
+					
+					hideAll();
+					$('#content-home').show();
+				});
+				
+				lee_json();
+				
+				
+		});     
+		
+		
 		
 		

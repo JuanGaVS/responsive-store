@@ -53,6 +53,10 @@ body{
 	display: inline-block;
 }/* menu */
 
+.menu li{
+    cursor: pointer;
+}
+
 .menu-active{
 	background: #696664;
 }/* menu-active */
