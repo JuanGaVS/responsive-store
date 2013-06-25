@@ -75,7 +75,27 @@ var motos =
 	    vendor: "Harley-Davidson"
 	}
     ];
-
+    
+function hideAll(){
+				$('#content-show_product').hide();
+				$('#content-about_us').hide();
+				$('#content-contact_us').hide();
+				$('#content-home').hide();
+			}
+ function cleanProduct(){
+    $('#content-show_product').empty();
+    
+ }
+ 
+ 
+ function fillProduct(id){
+    console.log(id);
+	id=id.charAt(1);
+	id=(id-1)+"";
+	console.log(id);
+	$('#content-show_product').append('<h1 class="main-title" >'+motos[id].model+'</h1>'+'<h2 class="product-detail-home">Description:</h2>'+' <p class="description">'+motos[id].description+'</p>'+'<img class="image" src="'+motos[id].image_url+'"'+'></img>');
+ }
+ 
  function lee_json() {
 	 console.log('lee');
             
@@ -85,12 +105,12 @@ var motos =
 					console.log('foreach');
 					$('#products').append(
 					'<li class="product" >'+
-'        	<h2 class="product-detail-home" >'+
+'        	<a class="link-product fancybox iframe" id="'+motos[id].id+'"> <h2 id="'+motos[id].id+'" class="product-detail-home link-product" >'+
             motos[id].model+
-'            </h2>'+
+'            </h2></a>'+
 '            <div class="image-background" >'+
-'            	<div align="center" >'+
-'                	<img src="'+motos[id].image_url+'" />'+
+'            	<div  align="center" >'+
+'                	<a class="link-product fancybox iframe" id="'+motos[id].id+'"><img src="'+motos[id].image_url+'" /></a>'+
 '                </div>'+
 '            </div>'+
 '            <div class="product-info" >'+
@@ -127,18 +147,35 @@ var motos =
 					items_per_page : 3
 				});
 				
-				
+				$('.link-product').on('click', function( ) {
+				//$('#link-about').hammer().on('tap', function(ev){
+					console.log("show product");
+					
+					cleanProduct();
+					fillProduct(this.id);
+					hideAll();
+					$( paginaActual ).fadeOut( "slow" );
+					$('#content-show_product').fadeIn( "slow" );
+					/*$('#content-about_us').transition({
+  						perspective: '100px',
+  						rotateY: '360deg'
+					});*/
+					paginaActual = "#content-show_product";
+					
+				});
 		
  }
+ 
+ 
+ 
+
+ 
+ 
+ 
 		
 		$(document).ready(function(){
 			
-			function hideAll(){
-				$('#content-show_product').hide();
-				$('#content-about_us').hide();
-				$('#content-contact_us').hide();
-				$('#content-home').hide();
-			}
+			
 				hideAll();
 				$('#content-home').show();
 				
@@ -179,6 +216,7 @@ var motos =
 					});*/
 				});
 				
+								
 				lee_json();
 				
 				

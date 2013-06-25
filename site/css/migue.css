@@ -17,52 +17,37 @@ blockquote, q { quotes: "" ""; }
 #logo{ 	background: url(../imagenes/memostra.png);	display: block;	clear: both;	background-repeat:no-repeat;}/* logo */
 #banner{background: url(../imagenes/banner.png);display: block;	clear: both;	width: 100%;	background-repeat:no-repeat; }
 .separator{background: url(../imagenes/separator.png);	background-repeat: repeat-x;	width: 100%;}
-#footer{float: left;height: 3.4765em;   background-color: #000; width: 100%}
-/*------------------------------------------------------------------------------*/
-
-
-
+#footer{height: 3.4765em; float: left ; background-color: #000; width: 100%}
+/*--------------------------------------------------------*/
 
 /*------------------------------Contact Us-------------------------------------*/
-/*estilos para titulo de pagina*/
-.contatUs{display: inline-block; float: left;  width: 100%; margin-top:0.6875em; }
+.contatUs{display: inline-block; float: left; height: 33.5625em; width: 100%; margin-top:0.6875em; }
 .contatUs #titulo{display: block; }
-.contatUs h1{ font-family: Arial, bold;font-weight: bold;  }
-.contatUs .textos{display: block;  margin-left: 0.375em; margin-right:  0.375em;}
-.contatUs .textos p{ font-family: Verdana; text-align: justify;  }
+.contatUs h1{font-size: 36px; font-family: Arial, bold;font-weight: bold;  }
+.contatUs .separator{margin-top: 0.75em}
+.contatUs .textos{display: block; height: 3em; margin-top: 2.035em; margin-left: 0.375em; margin-right:  0.375em;margin-bottom: 1.8em}
+.contatUs .textos p{font-size: 9.39px; font-family: Verdana; text-align: justify;  }
 
-/*estilos para form de pagina*/
-.contatUs #form{margin-left:  0.375em; width: 100%;}
+
+.contatUs #form{margin-left:  0.375em; width: 100%; }
 .contatUs #form #colum1 {display: block; float: left;  width: 49%;}
 .contatUs #form #colum2 {display: block; float: left;  width: 49%;}
 
 
 .contatUs #form input{background: #cccdce; border: none; font-size: 14; width: 95%; height:1.6825em; margin-bottom: 0.6063em}
 .contatUs #form  textarea{ background-color:  #cccdce; border: none ; resize: none;  }
-.contatUs #form button{background: #d17d2c; color: #fff;  border-color: #cedfc0; float: right;margin-top: 1.05em;}
+.contatUs #form button{background: #d17d2c; color: #fff;  border-color: #cedfc0; float: right;margin-top: 1.05em; width: 105px; height: 28.65px}
 .contatUs #form  h2{font-family: Verdana;font-weight: bold;  color: #4d6277; font-size: 10; margin-bottom:  0.3125em; }
 /*------------------------------Contact Us-------------------------------------*/
 
 
 
-  /*   TAMAÑO DE 320*/
+ 
  @media only screen and (max-width: 320px){
    /*------------------------------Contact Us-------------------------------------*/
-
-.contatUs {height: 22.9775em;}
-.contatUs .separator{margin-top: 0.25em}
-.contatUs .textos p{font-size: 6.24px; margin-top: 0.635em; height: 3em;margin-bottom: 3em;}
-
-.contatUs #form{margin-left:  0.375em; width: 100%; }
+.contatUs #form{margin-left:  0.375em; width: 100%; margin-top: 1.67em}
 .contatUs #form textarea{height:13em;width:95%;}
-.contatUs #form button{margin-right:1.75em; width: 71px; height: 19.50px; font-size: 6px;  margin-top: 0.69em }
- .contatUs #form{margin-top: 0.45em}
- 
- 
-.contatUs #form input{font-size: 8px;}
-.contatUs #form  h2{font-size: 8px;}
-.contatUs #titulo h1{font-size: 23.75px;}
-
+.contatUs #form button{margin-right:1.75em }
 /*------------------------------Contact Us-------------------------------------*/
 
 
@@ -96,25 +81,11 @@ blockquote, q { quotes: "" ""; }
 		height: 0.125em;
 	}/* separator */
 	
-        
-        
-     /*   TAMAÑO DE 480*/
  @media only screen and (min-width: 321px) and (max-width:480px){
    /*------------------------------Contact Us-------------------------------------*/
-     
-     .contatUs{height: 33.5625em;}
-     .contatUs .separator{margin-top: 0.75em}
-     
-     
-    .contatUs #form{margin-top: 2.5em}
-    .contatUs #form textarea{width:95%;height:13em;}
-    .contatUs #form button{margin-right: 2.6875em; width: 115px; height: 36px; font-size: 12px; margin-top: 1.99em}
-    
-    
-    .contatUs #form  h2{font-size: 13px;}
-    .contatUs .textos p{font-size: 10px; margin-top: 2.035em;height: 3em;}
-     .contatUs #titulo h1{font-size: 38px;}
     .contatUs #form input{font-size: 16;}
+    .contatUs #form textarea{width:95%;height:13em;}
+    .contatUs #form button{margin-right: 2.6875em }
 /*------------------------------Contact Us-------------------------------------*/
     
     
@@ -147,5 +118,5 @@ blockquote, q { quotes: "" ""; }
 		height: 0.0625em;
 	}/* separator */
 	
- /*-----------------------CSS de Adorno para ayuda---------------------------------*/
+
     }
