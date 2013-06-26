@@ -65,7 +65,7 @@ a.link-product{
 .menu{
 	display: block;
     width: 100%;
-    height: 40px;
+    height: 2.5em;
     background: #000000;
 	display: inline-block;
 }/* menu */
@@ -141,7 +141,7 @@ a.last_link.no_more {
 }/* pager-text */
 
 .page_navigation , .alt_page_navigation{
-	padding-bottom: 10px;
+	padding-bottom: .625em;
 }
 
 .page_navigation a, .alt_page_navigation a{
@@ -162,6 +162,28 @@ a.page_link.active_page{
 }/* active-page */
 
 /*-------------------------------------------------------------*/
+
+
+/*------------------------------Contact Us-------------------------------------*/
+.contatUs{display: inline-block; float: left; width: 100%; margin-top:0.6875em; }
+.contatUs #titulo{display: block; }
+/*.contatUs h1{font-size: 2.25em; font-family: Arial, bold;font-weight: bold;  }*/
+.contatUs .separator{margin-top: 0.75em}
+.contatUs .textos{display: block; margin-left: 0.375em; margin-right:  0.375em;margin-bottom: 1.8em}
+.contatUs .textos p{font-family: Verdana; text-align: justify;  }
+
+
+.contatUs #form{margin-left:  0.375em; width: 100%; }
+.contatUs #form #colum1 {display: block; float: left;  width: 49%;}
+.contatUs #form #colum2 {display: block; float: left;  width: 49%;}
+
+
+.contatUs #form input{background: #cccdce; border: none; width: 95%; height:1.6825em; margin-bottom: 0.6063em}
+.contatUs #form  textarea{ background-color:  #cccdce; border: none; resize: none;  }
+.contatUs #form button{background: #d17d2c; color: #fff;  border-color: #cedfc0; float: right;margin-top: 1.05em; height: 1.791em}
+.contatUs #form  h2{font-family: Verdana;font-weight: bold;  color: #4d6277; margin-bottom:  0.3125em; }
+/*------------------------------Contact Us-------------------------------------*/
+
 
 /* media queries */
 @media only screen and( max-width: 320px ){
@@ -233,6 +255,16 @@ a.page_link.active_page{
 	
 	/*--------------------------------------------------------*/
 	
+	   /*------------------------------Contact Us-------------------------------------*/
+	 .contatUs{height: 31.5625em;}
+	.contatUs #form{margin-left:  0.375em; width: 100%; margin-top: 1.67em}
+	 input[type="text"]{ font-size:.6em;}
+	.contatUs #form textarea{height:13em; width:95%;}
+	.contatUs #form button{margin-right:1.75em; font-size: .9em; }
+	.contatUs .textos p{font-size: .6em;}
+/*------------------------------Contact Us-------------------------------------*/
+	
+	
 	.menu ul{
         list-style-type: none;
         text-align: center;
@@ -264,10 +296,10 @@ a.page_link.active_page{
 		font-size: .625em;
 	}
 	#content-show_product img.image{
-		width: 17.4375em;
-		height: 10.5em;
+		width: 11.4375em;
+		height: 6.8871em;
 		
-		margin: 0.5em 0 0.5em 1.125em;
+		margin: 0.5em 0 0.5em .7em;
 		
 	}
 	/**********************Show product**************************/
@@ -349,6 +381,15 @@ a.page_link.active_page{
 	}/* pager */
 	
 	/*--------------------------------------------------------*/
+	
+	   /*------------------------------Contact Us-------------------------------------*/
+	 .contatUs{height: 35.5625em;}
+	.contatUs #form{margin-left:  0.375em; width: 100%; margin-top: 1.67em}
+	 input[type="text"]{ font-size:1.9em;}
+	.contatUs #form textarea{height:13em; width:95%;}
+	.contatUs #form button{margin-right:1.75em; font-size: 1.2em; }
+	.contatUs .textos p{font-size: .9em;}
+/*------------------------------Contact Us-------------------------------------*/
 
 	.menu{
 		height: 3em;
@@ -383,9 +424,9 @@ a.page_link.active_page{
 		font-size: .875em;
 	}
 	#content-show_product img.image{
-		width: 26.25em;
-		height: 15.625m;
-		margin: 0.5em 0 0.5em 1.625em;
+		width: 21.25em;
+		height: 12.6489em;
+		margin: 0.5em 0 0.5em .7em;
 		
 	}
 	/**********************Show product**************************/

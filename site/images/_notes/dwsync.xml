@@ -10,7 +10,7 @@
 <file name="08.png" server="C:/AppServ/www/responsive-store/" local="130164302706664344" remote="130164302700000000" Dst="0" />
 <file name="09.png" server="C:/AppServ/www/responsive-store/" local="130164302706674345" remote="130164302700000000" Dst="0" />
 <file name="banner.png" server="C:/AppServ/www/responsive-store/" local="130164302706694346" remote="130164302700000000" Dst="0" />
-<file name="memostra.png" server="C:/AppServ/www/responsive-store/" local="130164302706714347" remote="130164302700000000" Dst="0" />
+<file name="memostra.png" server="C:/AppServ/www/responsive-store/" local="130165138341769613" remote="130165138340000000" Dst="0" />
 <file name="separator.png" server="C:/AppServ/www/responsive-store/" local="130164302706714347" remote="130164302700000000" Dst="0" />
 <file name="share.png" server="C:/AppServ/www/responsive-store/" local="130164302706724348" remote="130164302700000000" Dst="0" />
 <file name="01.png" server="C:/AppServ/www/responsive-store/site/" local="130161699572765608" remote="130161699570000000" Dst="0" />
@@ -39,4 +39,8 @@
 <file name="banner.png" server="C:/AppServ/www/mierda/" local="130165220240000000" remote="130165220240000000" Dst="0" />
 <file name="memostra.png" server="C:/AppServ/www/mierda/" local="130165220240000000" remote="130165220240000000" Dst="0" />
 <file name="share.png" server="C:/AppServ/www/mierda/" local="130165220240000000" remote="130165220240000000" Dst="0" />
+<file name="blank.gif" server="C:/AppServ/www/responsive-store/" local="130028118430000000" remote="130028118430000000" Dst="0" />
+<file name="fancybox_loading.gif" server="C:/AppServ/www/responsive-store/" local="130028118430000000" remote="130028118430000000" Dst="0" />
+<file name="fancybox_overlay.png" server="C:/AppServ/www/responsive-store/" local="130028118430000000" remote="130028118430000000" Dst="0" />
+<file name="fancybox_sprite.png" server="C:/AppServ/www/responsive-store/" local="130028118430000000" remote="130028118430000000" Dst="0" />
 </dwsync>

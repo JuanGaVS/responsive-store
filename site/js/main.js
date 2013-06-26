@@ -105,12 +105,12 @@ function hideAll(){
 					console.log('foreach');
 					$('#products').append(
 					'<li class="product" >'+
-'        	<a class="link-product fancybox iframe" id="'+motos[id].id+'"> <h2 id="'+motos[id].id+'" class="product-detail-home link-product" >'+
+'        	<a class="link-product fancybox" href="#content-show_product" id="'+motos[id].id+'"> <h2 id="'+motos[id].id+'" class="product-detail-home link-product" >'+
             motos[id].model+
 '            </h2></a>'+
 '            <div class="image-background" >'+
 '            	<div  align="center" >'+
-'                	<a class="link-product fancybox iframe" id="'+motos[id].id+'"><img src="'+motos[id].image_url+'" /></a>'+
+'                	<a class="link-product fancybox" href="#content-show_product" id="'+motos[id].id+'"><img src="'+motos[id].image_url+'" /></a>'+
 '                </div>'+
 '            </div>'+
 '            <div class="product-info" >'+
@@ -147,20 +147,22 @@ function hideAll(){
 					items_per_page : 3
 				});
 				
+				$('.fancybox').fancybox();
+				
 				$('.link-product').on('click', function( ) {
 				//$('#link-about').hammer().on('tap', function(ev){
 					console.log("show product");
 					
 					cleanProduct();
 					fillProduct(this.id);
-					hideAll();
-					$( paginaActual ).fadeOut( "slow" );
-					$('#content-show_product').fadeIn( "slow" );
+				//	hideAll();
+					//$( paginaActual ).fadeOut( "slow" );
+					//$('#content-show_product').fadeIn( "slow" );
 					/*$('#content-about_us').transition({
   						perspective: '100px',
   						rotateY: '360deg'
 					});*/
-					paginaActual = "#content-show_product";
+					//paginaActual = "#content-show_product";
 					
 				});
 		
@@ -215,6 +217,10 @@ function hideAll(){
   						rotateY: '360deg'
 					});*/
 				});
+				
+				$('#btnEnviar').on('click', function(){
+		            alert ('Thanks for contacting us, '); 
+     			});
 				
 								
 				lee_json();
