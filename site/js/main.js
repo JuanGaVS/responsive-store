@@ -89,20 +89,14 @@ function hideAll(){
  
  
  function fillProduct(id){
-    console.log(id);
 	id=id.charAt(1);
 	id=(id-1)+"";
-	console.log(id);
 	$('#content-show_product').append('<h1 class="main-title" >'+motos[id].model+'</h1>'+'<h2 class="product-detail-home">Description:</h2>'+' <p class="description">'+motos[id].description+'</p>'+'<img class="image" src="'+motos[id].image_url+'"'+'></img>');
  }
  
  function lee_json() {
-	 console.log('lee');
             
-				console.log('get');
-				//$('#content-home').append('<div id="paging_products"></div>');
                 for(var id=0; id<motos.length; id++) {
-					console.log('foreach');
 					$('#products').append(
 					'<li class="product" >'+
 '        	<a class="link-product fancybox" href="#content-show_product" id="'+motos[id].id+'"> <h2 id="'+motos[id].id+'" class="product-detail-home link-product" >'+
@@ -141,8 +135,6 @@ function hideAll(){
 					   
                 }
 				
-				//$('#paging_products').append('<div id="pager" class="page_navigation"></div>');
-				
 				$('#paging_products').pajinate({
 					items_per_page : 3
 				});
@@ -151,19 +143,9 @@ function hideAll(){
 				
 				$('.link-product').on('click', function( ) {
 				//$('#link-about').hammer().on('tap', function(ev){
-					console.log("show product");
 					
 					cleanProduct();
-					fillProduct(this.id);
-				//	hideAll();
-					//$( paginaActual ).fadeOut( "slow" );
-					//$('#content-show_product').fadeIn( "slow" );
-					/*$('#content-about_us').transition({
-  						perspective: '100px',
-  						rotateY: '360deg'
-					});*/
-					//paginaActual = "#content-show_product";
-					
+					fillProduct(this.id);					
 				});
 		
  }
@@ -186,10 +168,6 @@ function hideAll(){
 					hideAll();
 					$( paginaActual ).fadeOut( "slow" );
 					$('#content-about_us').fadeIn( "slow" );
-					/*$('#content-about_us').transition({
-  						perspective: '100px',
-  						rotateY: '360deg'
-					});*/
 					paginaActual = "#content-about_us"; 			
 				});
 				
@@ -198,11 +176,7 @@ function hideAll(){
 					hideAll();
 					$( paginaActual ).fadeOut( "slow" );
 					$('#content-contact_us').fadeIn( "slow" );
-					/*$('#content-contact-us')
-  						.transition({ x: -40 })
-  						.transition({ y: 40 })
-  						.transition({ x: 0 })
-  						.transition({ y: 0 });*/
+
 					paginaActual = "#content-contact_us"; 
 				});
 				
@@ -212,10 +186,6 @@ function hideAll(){
 					$( paginaActual ).fadeOut( "slow" );
 					$('#content-home').fadeIn( "slow" );
 					paginaActual = "#content-home"; 
-					/*$('#content-home').transition({
-  						perspective: '100px',
-  						rotateY: '360deg'
-					});*/
 				});
 				
 				$('#btnEnviar').on('click', function(){
